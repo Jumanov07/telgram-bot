@@ -53,10 +53,10 @@ for more information.
 11. Make a POST request to the following URL: http://localhost:5000/api/v1/send-telegram with the following JSON payload:
     ```json
     {
-    	"name": "Elcho911",
+    	"name": "Alisher",
     	"email": "boss.armsport@gmail.com",
-    	"subject": "WeDevX",
-    	"message": "Hello, Elcho911 👋🏻"
+    	"subject": "Peaksoft",
+    	"message": "Hello, Alisher 👋🏻"
     }
     ```
 12. You should receive the following JSON response:
@@ -64,18 +64,18 @@ for more information.
     {
     	"success": true,
     	"data": {
-    		"name": "Elcho911",
+    		"name": "Alisher",
     		"email": "boss.armsport@gmail.com",
-    		"subject": "WeDevX",
-    		"message": "Hello, Elcho911 👋🏻"
+    		"subject": "Peaksoft",
+    		"message": "Hello, Alisher 👋🏻"
     	}
     }
     ```
 13. Verify that the message has been sent to Telegram with the content:
     ```txt
-    Name: Elcho911
+    Name: Alisher
     Email: boss.armsport@gmail.com
-    Subject: WeDevX
-    Message: Hello, Elcho911 👋🏻
+    Subject: Peaksoft
+    Message: Hello, Alisher 👋🏻
     ```
 14. All set!
